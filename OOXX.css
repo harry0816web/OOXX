@@ -1,0 +1,23 @@
+ .BG{
+    background-color: cornsilk;
+}
+.Title{
+    font-size: 300%;
+    font-family: 微軟正黑體;
+    text-align: center;
+    color:darkorange;
+    margin-top: -2px;
+}
+.Table{
+    border:2px rgb(170, 149, 33) solid;
+    width: 360px;
+    height: 370px;
+    text-align: center;
+    margin-left: 390px;
+    background-color: rgb(175, 201, 175);
+    font-size: 50px;
+    font-family: 微軟正黑體;
+    margin-top: -10px;
+    color: rgb(64, 154, 228);
+}
+
