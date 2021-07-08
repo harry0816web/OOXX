@@ -1,0 +1,19 @@
+html{
+    background-color: cornsilk;
+}
+.Title{
+    font-size: 90px;
+    font-family: 微軟正黑體;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    color: darksalmon   ;
+}
+ul li{
+    font-size: 50px;
+    margin-left: 500px;
+}
+ul li:hover{
+    list-style-type:none;
+    list-style-image: url(三角形.png);
+}
