@@ -140,26 +140,3 @@ function restartHotKey(){
     // }
 }
 document.onkeydown=restartHotKey;
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
-// function VSpc(){
-//     var IdOfTheBlock;
-//     var character = new Array();
-//     for(var i = 0;i < 3;i ++){
-//         character[i] = new Array();
-//         for(var j = 0;j < 3;j ++){
-//             IdOfTheBlock = "map" + i + j;
-//             character[i][j] = document.getElementById(IdOfTheBlock).innerHTML;
-//         }
-//     }
-//     var row,column;
-//     do{
-//         row = getRandomInt(3);column = getRandomInt(3);
-//         if(character[row][column] == 'O' || character[row][column] == 'X')break;
-//     }while(character[row][column] ==  'O' || character[row][column] == 'X');
-//     if(FirstManTurn){
-//         character[row][column] = 'O';
-//     }
-//     else character[row][column] = 'X';
-// }
