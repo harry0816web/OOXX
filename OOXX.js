@@ -60,10 +60,11 @@ function PlayerChoose(thisBlock){
             }
         }
         else{
-            if(turns == 9){
+            if(turns >= 8 && CheckifTheMapisFull()){
                 alert('已無空位');
                 console.log(turns); 
                 document.getElementById('restart').innerHTML = "press 'G' to restart";
+                turns = 1;
             }
         }
         turns++;
@@ -135,8 +136,17 @@ function restartHotKey(){
     if (event.keyCode==71) {
 		clearMap();
 	}
-    // else if(event.keyCode==84){
-
-    // }
 }
 document.onkeydown=restartHotKey;
+function CheckifTheMapisFull(){
+    var IdOfTheBlock;
+    for(var i = 0;i < 3;i ++){
+        for(var j = 0;j < 3;j ++){
+            IdOfTheBlock = "map" + i + j;
+            if(document.getElementById(IdOfTheBlock).innerHTML != 'O' && document.getElementById(IdOfTheBlock).innerHTML != 'X'){
+                return false;
+            }
+        }
+    }
+    return true;
+}
