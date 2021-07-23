@@ -13,7 +13,8 @@
     width: 360px;
     height: 370px;
     text-align: center;
-    margin-left: 390px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(175, 201, 175);
     font-size: 50px;
     font-family: 微軟正黑體;
